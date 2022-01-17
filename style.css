@@ -1,33 +1,83 @@
+body::before{
+text-align: center;
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background-image: linear-gradient(115deg,  rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),
+          url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.4;
+          color: white;
+          margin: 0px;
+        }
 body{
     text-align: center;
-    background-color: blueviolet;
+    
+   }
 }
-
-.Survy form{
-text-align: left;
+#title{
+    font-size: 30px;
 }
-
+#description{
+    font-size: 20px;
+}
 .container{
-    width: 400px;
-    background-color: pink;
-    border: indigo;
-  margin-left: 750px;
-}
-.button1{
-    width: 300px;
-}
-.button2{
-    width: 300px;
-}
-.button3{
-    width: 300px;
-}
-.btn{
-    width: 300px;
-height: 50px;
-}
-.btn2{
-    width: 300px;
+    width: 750px;
+    margin: center;
 
-background-color: green;
+    background-color: blue;
+    opacity: 0.75;
+    margin-left: 650px;
+    color: white;
+}
+#survey-form{
+   text-align: left;
+padding: 20px;
+
+}
+#name{
+    width: 500px;
+    height: 50px;
+    margin-left: 10px;
+   
+}
+#email{
+    width: 500px;
+    height: 50px;
+    margin-left: 10px;
+}
+#age{
+    width: 500px;
+    height: 50px;
+    margin-left: 10px;
+}
+#number{
+    width: 500px;
+    height: 50px;
+    margin-left: 10px;
+}
+#select{
+    width: 510px;
+    height: 50px;
+    margin-left: 15px;
+}
+#message{
+    width: 510px;
+    height: 100px;
+    margin-left: 15px;
+}
+#submit{
+    width: 520px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: green;
 }
